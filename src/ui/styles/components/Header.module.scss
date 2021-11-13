@@ -1,0 +1,52 @@
+.container {
+    $fontSize: 0.9rem;
+
+    padding: 1rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
+    h4 {
+        a {
+            padding: 0.5rem 0.75rem;
+
+            text-decoration: none;
+            color: black;
+            font-weight: normal;
+            letter-spacing: 3px;
+
+            span {
+                font-weight: bold;
+            }
+
+            &:hover {
+                border-radius: 3px;
+                background-color: rgb(230, 230, 230);
+            }
+        }
+    }
+
+    div {
+        a {
+            padding: 0.5rem .75rem;
+
+            text-decoration: none;
+            color: black;
+            font-size: $fontSize;
+            letter-spacing: 3px;
+
+            &:not(:first-of-type) {
+                margin-left: 1rem;
+            }
+
+            &:hover {
+                border-radius: 3px;
+                background-color: rgb(230, 230, 230);
+            }
+        }
+    }
+}

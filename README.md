@@ -2,11 +2,11 @@
 Um exemplo de site de uma empresa de arquitetura feito em React e TypeScript.
 
 ## Objetivos
-- [x] Header;
-- [ ] Banner;
-- [ ] Projects;
-- [ ] About;
-- [ ] Contact;
+- [x] Header.
+- [ ] Banner.
+- [ ] Projects.
+- [ ] About.
+- [ ] Contact.
 - [ ] Footer.
 
 ## Primeiros passos
