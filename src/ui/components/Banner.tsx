@@ -4,7 +4,7 @@ import styles from "../styles/components/Banner.module.scss";
 
 function Banner() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="banner">
             <img src={Building} alt="" />
             <p><span>BR</span> Architects</p>
         </div>

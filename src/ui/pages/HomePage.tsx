@@ -1,5 +1,7 @@
+import About from "../components/About";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
+import Projects from "../components/Projects";
 import styles from "../styles/pages/HomePage.module.scss";
 
 function HomePage() {
@@ -7,6 +9,8 @@ function HomePage() {
         <div className={styles.container}>
             <Header />
             <Banner />
+            <Projects />
+            <About />
         </div>
     );
 }

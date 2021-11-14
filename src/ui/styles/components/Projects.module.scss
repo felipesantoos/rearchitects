@@ -1,0 +1,39 @@
+.container {
+    padding: 0 2rem;
+
+    h2 {
+        margin: 4rem 0 0;
+
+        font-weight: normal;
+    }
+
+    > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        > div {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        > div {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        > div {
+            grid-template-columns: 1fr;
+        }
+    }
+}

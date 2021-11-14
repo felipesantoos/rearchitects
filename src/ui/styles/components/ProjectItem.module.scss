@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    z-index: -1;
+    
+    span {
+        padding: 0.75rem 1rem;
+
+        display: inline-block;
+
+        position: absolute;
+        top: 0;
+
+        color: white;
+        background-color: black;
+        font-size: 0.9rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}
