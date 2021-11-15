@@ -7,6 +7,7 @@ Um exemplo de site de uma empresa de arquitetura feito em React e TypeScript.
 - [x] Projects.
 - [x] About.
 - [x] Contact.
+- [x] Location.
 - [x] Footer.
 
 ## Primeiros passos
