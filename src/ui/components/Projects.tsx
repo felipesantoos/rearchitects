@@ -6,11 +6,12 @@ import House4 from "../../assets/images/house4.jpg";
 import styles from "../styles/components/Projects.module.scss";
 import HR from "./HR";
 import ProjectItem from "./ProjectItem";
+import Title from "./Title";
 
 function Projects() {
     return (
         <div className={styles.container} id="projects">
-            <h2>Projects</h2>
+            <Title>Projects</Title>
             <HR />
             <div>
                 <ProjectItem

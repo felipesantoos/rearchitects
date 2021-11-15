@@ -6,11 +6,12 @@ import Person3 from "../../assets/images/person3.jpg";
 import Person4 from "../../assets/images/person4.jpg";
 
 import styles from "../styles/components/About.module.scss";
+import Title from "./Title";
 
 function About() {
     return (
         <div className={styles.container} id="about">
-            <h2>About</h2>
+            <Title>About</Title>
             <HR />
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
